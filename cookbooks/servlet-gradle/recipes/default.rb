@@ -8,6 +8,7 @@
 #
 
 include_recipe "tomcat"
+include_recipe "yum-servlet"
 
 cookbook_file "/etc/yum.conf" do
 	source "yum.conf"

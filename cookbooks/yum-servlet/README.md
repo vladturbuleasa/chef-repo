@@ -1,5 +1,5 @@
-servlet Cookbook
-================
+yum-servlet Cookbook
+====================
 TODO: Enter the cookbook description here.
 
 e.g.
@@ -11,14 +11,14 @@ TODO: List your cookbook requirements. Be sure to include any requirements this 
 
 e.g.
 #### packages
-- `toaster` - servlet needs toaster to brown your bagel.
+- `toaster` - yum-servlet needs toaster to brown your bagel.
 
 Attributes
 ----------
 TODO: List your cookbook attributes here.
 
 e.g.
-#### servlet::default
+#### yum-servlet::default
 <table>
   <tr>
     <th>Key</th>
@@ -27,7 +27,7 @@ e.g.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['servlet']['bacon']</tt></td>
+    <td><tt>['yum-servlet']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -36,17 +36,17 @@ e.g.
 
 Usage
 -----
-#### servlet::default
+#### yum-servlet::default
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `servlet` in your node's `run_list`:
+Just include `yum-servlet` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[servlet]"
+    "recipe[yum-servlet]"
   ]
 }
 ```
