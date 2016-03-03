@@ -9,6 +9,10 @@
 include_recipe "tomcat"
 include_recipe "yum-servlet"
 
+execute "yum clean" do
+	command "yum clean all"
+end
+
 package 'ServletMaven' do
         action :install
 end
