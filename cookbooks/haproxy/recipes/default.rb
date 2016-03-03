@@ -12,5 +12,5 @@ package 'haproxy' do
 end
 
 service 'haproxy' do
-	service :start, :enable
+	action :start, :enable
 end
