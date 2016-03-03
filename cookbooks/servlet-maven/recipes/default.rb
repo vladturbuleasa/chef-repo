@@ -9,8 +9,7 @@
 include_recipe "tomcat"
 include_recipe "yum-servlet"
 
-cookbook_file "/etc/yum.conf" do
-	source "yum.conf"
-	mode "0644"
+package 'ServletGradle' do
+        action :install
 end
 
