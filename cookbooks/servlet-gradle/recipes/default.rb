@@ -10,11 +10,6 @@
 include_recipe "tomcat"
 include_recipe "yum-servlet"
 
-cookbook_file "/etc/yum.conf" do
-	source "yum.conf"
-	mode "0644"
-end
-
 execute "yum clean" do
 	command "yum clean all"
 end
