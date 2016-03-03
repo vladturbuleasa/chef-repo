@@ -9,7 +9,7 @@
 include_recipe "tomcat"
 include_recipe "yum-servlet"
 
-package 'ServletGradle' do
+package 'ServletMaven' do
         action :install
 end
 
